@@ -105,6 +105,9 @@ bank_account.withdraw(input("Enter the amount you would like to withdraw: $"))
 
 # Testing Encapsulation
 bank_account._balance = 1000
+# This is intended to be an internal variable
+# Direct access is discouraged as the wrong data might
+# be saved to this variable.
 
 # Display account details
 print(bank_account)
